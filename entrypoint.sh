@@ -43,7 +43,22 @@ function configure(){
   cd "/"
 
   echo "Inpputs"
-
+  echo "TS_NAMESPACE=${TS_NAMESPACE}"
+  echo "TS_NAME=${TS_NAME}"
+  echo "TS_VERSION=${TS_VERSION}"
+  echo "TS_COMMUNITY=${TS_COMMUNITY}"
+  echo "TS_DESC=${TS_DESC}"
+  echo "TS_ICON=${TS_ICON}"
+  echo "TS_README=${TS_README}"
+  echo "TS_PATH=${TS_PATH}"
+  echo "TS_DEV=${TS_DEV}"
+  echo "TS_WRAP=${TS_WRAP}"
+  echo "TS_WEBSITE=${TS_WEBSITE}"
+  echo "TS_CATEGORIES=${TS_CATEGORIES}"
+  echo "TS_DEPS=${TS_DEPS}"
+  echo "TS_NSFW=${TS_NSFW}"
+  echo "TS_FILE=${TS_FILE}"
+  
   echo "::group::Configure tcli"
 
   #tcli usage based off of https://github.com/R2Northstar/Northstar/blob/d8ad8f12f8bca1e8de96f5d7163f71997d487218/.github/workflows/build.yml#L132-L192
