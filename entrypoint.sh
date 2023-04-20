@@ -42,6 +42,8 @@ function setup() {
 function configure(){
   cd "/"
 
+  echo "Inpputs"
+
   echo "::group::Configure tcli"
 
   #tcli usage based off of https://github.com/R2Northstar/Northstar/blob/d8ad8f12f8bca1e8de96f5d7163f71997d487218/.github/workflows/build.yml#L132-L192
