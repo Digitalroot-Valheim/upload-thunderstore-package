@@ -40,7 +40,9 @@ if (categories && categories !== "") {
   //only keep truthy elements from the split
   tstore.publish.categories = categories.split(' ').filter(e => e).map(e=> e.toLowerCase());
 }
+console.log("tstore.publish.repository ", tstore.publish.repository);
 tstore.publish.repository = "https://valheim.thunderstore.io/";
+console.log("tstore.publish.repository ", tstore.publish.repository);
 
 if (deps && deps !== "") {
   const p = {};
