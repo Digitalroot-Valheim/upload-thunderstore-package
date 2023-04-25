@@ -83,7 +83,7 @@ function publish() {
   if [ -n "$TS_DEV" ]; then
     repo="https://thunderstore.dev"
   else
-    repo="https://thunderstore.io"
+    repo="https://valheim.thunderstore.io" # https://thunderstore.io
   fi
 
   # skip the build if there is a prebuilt package provided
